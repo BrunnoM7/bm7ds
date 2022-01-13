@@ -8,3 +8,8 @@
 - Review the chosen fonts
 - Add monospace font
 - Review breakpoints
+
+### colors
+
+- Implement a secondary button
+- Map all DS atoms and which styles they need
