@@ -13,3 +13,11 @@
 
 - Implement a secondary button
 - Map all DS atoms and which styles they need
+
+### typography
+
+- Review the implemented font
+- Define line height, letter spacing 
+- Implement more fonts
+- define other atoms like: overline, buttons, Caption, etc...
+
