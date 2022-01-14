@@ -1,0 +1,50 @@
+/*=============================================
+=                                             =
+=             Foundation - Mixins             =
+=                                             =
+=============================================*/
+
+/**
+  *
+  * TABLE OF CONTENTS
+  *
+  * 
+  * BREAKPOINTS
+  * 
+  * Breakpoints.......................Global responsive breakpoints definitions
+  *
+  *
+  * SPACING
+  *
+  * Spacing...........................Global fixed set of spacing variables
+  *
+  */
+
+/*=============================================
+=                 BREAKPOINTS                 =
+=============================================*/
+
+@mixin breakpoint($viewport) {
+  @media(min-width: map-get($breakpoints, $viewport)) {
+    @content;
+  }
+}
+
+
+/*=====  End of BREAKPOINTS  ======*/
+
+
+
+/*=============================================
+=                   SPACING                   =
+=============================================*/
+
+@mixin padding($space) {
+  padding: map-get($spacing, $space);
+}
+
+@mixin margin($space) {
+  margin: map-get($spacing, $space);
+}
+
+/*=====  End of SPACING  ======*/
