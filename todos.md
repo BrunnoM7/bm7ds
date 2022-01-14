@@ -21,3 +21,9 @@
 - Implement more fonts
 - define other atoms like: overline, buttons, Caption, etc...
 
+### mixins
+
+- Review implementation of current mixins
+- improve documentation of current mixins
+- add spacing mixins handling specific parts of padding, margin, border, outline...
+- Review the need for more mixins dealing with other entities
