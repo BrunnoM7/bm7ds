@@ -28,6 +28,11 @@
   * 
   * Breakpoints.......................Global responsive breakpoints definitions
   *
+  *
+  * SPACING
+  *
+  * spacing...........................Global fixed set of spacing variables
+  *
   */
 
 
@@ -134,7 +139,30 @@ $breakpoints: (
   lg: 64rem,   // 1024px
   xl: 80rem,   // 1280px
   xxl: 87.5rem // 1400px
-)
+);
+
 
 /*=====  End of BREAKPOINTS  ======*/
 
+
+
+/*=============================================
+=                   SPACING                   =
+=============================================*/
+
+$spacing: (
+  xxxxs: 0.125rem,  // 2px
+  xxxs: 0.25rem,    // 4px
+  xxs: 0.5rem,      // 8px
+  xs: 0.75rem,      // 12px
+  sm: 1rem,         // 16px
+  md: 1.5rem,       // 24px
+  lg: 2rem          // 32px
+  xl: 3rem          // 48px
+  xxl: 4.5rem       // 72px
+  xxxl: 6rem        // 96px
+  xxxxl: 8rem       // 128px
+
+) !default;
+
+/*=====  End of SPACING  ======*/
