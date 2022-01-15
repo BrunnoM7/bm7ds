@@ -1,0 +1,51 @@
+:root {
+
+  
+  /* Colors */
+  
+  --bmds-app-bar-color: #{$dark};
+  --bmds-app-bar-bg: #{$white};
+  --bmds-app-bar-shadow: #{$dark-light};
+    
+  --bmds-app-bar-secondary-color: #{$white};
+  --bmds-app-bar-secondary-bg: #{$green};
+  --bmds-app-bar-secondary-shadow: #{$dark-light};
+    
+  --bmds-btn-primary-color: #{$white};
+  --bmds-btn-primary-bg: #{$green};
+  --bmds-btn-primary-bg-hover: #{$green-light};
+
+  --bmds-fab-primary-color: #{$white};
+  --bmds-fab-primary-bg: #{$green};
+  --bmds-fab-primary-bg-hover: #{$green-light};
+  --bmds-fab-primary-bg-clicked: #{$green-lighter};
+  --bmds-fab-primary-shadow: #{$dark-light};
+    
+  --bmds-form-color: #{$dark};
+  --bmds-form-bg: #{$white};
+  --bmds-form-error-color: #{$red};
+  --bmds-form-error-border: #{$red};
+  --bmds-form-focus-border: #{$green};
+
+  
+  /* Typography */
+
+  --bmds-body-font-size: #{$fs-sm};
+  --bmds-body-font-weight: #{$fw-regular};
+
+  --bmds-h1-font-size: #{$h-1};
+  --bmds-h2-font-size: #{$h-2};
+  --bmds-h3-font-size: #{$h-3};
+  --bmds-h4-font-size: #{$h-4};
+  --bmds-h5-font-size: #{$h-5};
+  --bmds-h6-font-size: #{$h-6};
+
+  --bmds-h1-font-weight: #{$fw-black};
+  --bmds-h2-font-weight: #{$fw-semibold};
+  --bmds-h3-font-weight: #{$fw-bold};
+  --bmds-h4-font-weight: #{$fw-medium};
+  --bmds-h5-font-weight: #{$fw-regular};
+  --bmds-h6-font-weight: #{$fw-light};
+}
+
+
