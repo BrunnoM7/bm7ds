@@ -130,7 +130,8 @@ $breakpoints: (
   // 1024px
   xl: 80rem,
   // 1280px
-  xxl: 87.5rem // 1400px,,
+  xxl: 87.5rem,
+  // 1400px
 );
 
 /*=====  End of BREAKPOINTS  ======*/
@@ -152,11 +153,16 @@ $spacing: (
   // 16px
   md: 1.5rem,
   // 24px
-  lg: 2rem // 32px
-  xl: 3rem // 48px
-  xxl: 4.5rem // 72px
-  xxxl: 6rem // 96px
-  xxxxl: 8rem // 128px,,
+  lg: 2rem,
+  // 32px
+  xl: 3rem,
+  // 48px
+  xxl: 4.5rem,
+  // 72px
+  xxxl: 6rem,
+  // 96px
+  xxxxl: 8rem,
+  // 128px
 ) !default;
 
 /*=====  End of SPACING  ======*/
