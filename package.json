@@ -1,0 +1,17 @@
+{
+  "name": "@bmds/core",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:BrunnoM7/bmds.git",
+  "author": "BrunnoM7 <brunno.marchetti7@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
