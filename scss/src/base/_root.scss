@@ -1,16 +1,14 @@
 :root {
-
-  
   /* Colors */
-  
+
   --bmds-app-bar-color: #{$dark};
   --bmds-app-bar-bg: #{$white};
   --bmds-app-bar-shadow: #{$dark-light};
-    
+
   --bmds-app-bar-secondary-color: #{$white};
   --bmds-app-bar-secondary-bg: #{$green};
   --bmds-app-bar-secondary-shadow: #{$dark-light};
-    
+
   --bmds-btn-primary-color: #{$white};
   --bmds-btn-primary-bg: #{$green};
   --bmds-btn-primary-bg-hover: #{$green-light};
@@ -20,14 +18,13 @@
   --bmds-fab-primary-bg-hover: #{$green-light};
   --bmds-fab-primary-bg-clicked: #{$green-lighter};
   --bmds-fab-primary-shadow: #{$dark-light};
-    
+
   --bmds-form-color: #{$dark};
   --bmds-form-bg: #{$white};
   --bmds-form-error-color: #{$red};
   --bmds-form-error-border: #{$red};
   --bmds-form-focus-border: #{$green};
 
-  
   /* Typography */
 
   --bmds-body-font-size: #{$fs-sm};
@@ -47,5 +44,3 @@
   --bmds-h5-font-weight: #{$fw-regular};
   --bmds-h6-font-weight: #{$fw-light};
 }
-
-

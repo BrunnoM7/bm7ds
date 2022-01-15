@@ -12,14 +12,12 @@
  *
  */
 
- 
 /*=============================================
 =             Global text colors              =
 =============================================*/
- 
+
 $body-text-color: var(--bmds-body-text-color, $dark) !default;
 $body-bg-color: var(--bmds-body-bg-color, $white) !default;
-
 
 /*=============================================
 =                   App Bar                   =
@@ -31,8 +29,10 @@ $app-bar-shadow: var(--bmds-app-bar-shadow, $dark-light) !default;
 
 $app-bar-secondary-color: var(--bmds-app-bar-secondary-color, $white) !default;
 $app-bar-secondary-bg: var(--bmds-app-bar-secondary-bg, $green) !default;
-$app-bar-secondary-shadow: var(--bmds-app-bar-secondary-shadow, $dark-light) !default;
-
+$app-bar-secondary-shadow: var(
+  --bmds-app-bar-secondary-shadow,
+  $dark-light
+) !default;
 
 /*=============================================
 =                   Buttons                   =
@@ -42,7 +42,6 @@ $btn-primary-color: var(--bmds-btn-primary-color, $white) !default;
 $btn-primary-bg: var(--bmds-btn-primary-bg, $green) !default;
 $btn-primary-bg-hover: var(--bmds-btn-primary-bg-hover, $green-light) !default;
 
-
 /*=============================================
 =                  FAB Button                 =
 =============================================*/
@@ -50,11 +49,11 @@ $btn-primary-bg-hover: var(--bmds-btn-primary-bg-hover, $green-light) !default;
 $fab-primary-color: var(--bmds-fab-primary-color, $white) !default;
 $fab-primary-bg: var(--bmds-fab-primary-bg, $green) !default;
 $fab-primary-bg-hover: var(--bmds-fab-primary-bg-hover, $green-light) !default;
-$fab-primary-bg-clicked: var(--bmds-fab-primary-bg-clicked, $green-lighter) !default;
+$fab-primary-bg-clicked: var(
+  --bmds-fab-primary-bg-clicked,
+  $green-lighter
+) !default;
 $fab-primary-shadow: var(--bmds-fab-primary-shadow, $dark-light) !default;
-
-
-
 
 /*=============================================
 =                    Forms                    =
