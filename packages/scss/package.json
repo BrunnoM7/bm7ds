@@ -5,5 +5,11 @@
   "license": "MIT",
   "dependencies": {
     "normalize-scss": "^7.0.1"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "scripts": {
+    "build": "node src/scripts/build.js"
   }
 }
