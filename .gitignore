@@ -2,5 +2,5 @@ node_modules
 
 yarn-error.log
 
-packages/scss/src/lib/*
+packages/scss/lib/*
 packages/react/lib/*
