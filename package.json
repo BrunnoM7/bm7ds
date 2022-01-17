@@ -1,10 +1,19 @@
 {
   "name": "@bmds/core",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "main": "index.js",
   "repository": "git@github.com:BrunnoM7/bmds.git",
   "author": "BrunnoM7 <brunno.marchetti7@gmail.com>",
   "license": "MIT",
+  "private": true,
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "stream": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "devDependencies": {
     "husky": "^7.0.4",
     "lerna": "^4.0.0",
@@ -15,15 +24,13 @@
     "stylelint-config-sass-guidelines": "^9.0.1",
     "stylelint-prettier": "^2.0.0"
   },
+  "nohoist": [
+    "**/normalize-scss"
+  ],
   "scripts": {
     "lint": "stylelint './**/*.scss'",
-    "lint:fix": "yarn lint --fix"
-  },
-  "private": true,
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ]
+    "lint:fix": "yarn lint --fix",
+    "build": "yarn lerna run build"
   },
   "husky": {
     "hooks": {
