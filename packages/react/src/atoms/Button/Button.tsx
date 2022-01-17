@@ -6,7 +6,7 @@ interface ButtonProps {
 
 const Button: React.FunctionComponent<ButtonProps> = ({ label }) => {
   return (
-    <button>{label}</button>
+    <button className='bmds-button__container'>{label}</button>
   )
 }
 

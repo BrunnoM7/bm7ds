@@ -11,7 +11,8 @@
   "stream": true,
   "workspaces": {
     "packages": [
-      "packages/*"
+      "packages/*",
+      "playgrounds/*"
     ]
   },
   "devDependencies": {

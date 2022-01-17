@@ -4,3 +4,6 @@ yarn-error.log
 
 packages/scss/lib/*
 packages/react/lib/*
+
+playgrounds/react/.cache
+playgrounds/react/dist
