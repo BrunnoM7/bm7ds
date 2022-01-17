@@ -1,0 +1,8 @@
+@import "foundation/all";
+
+.bmds-button {
+  &__container {
+    color: $btn-primary-color;
+    display: flex;
+  }
+}

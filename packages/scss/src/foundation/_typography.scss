@@ -22,20 +22,20 @@ $body-font-weight: var(--bmds-body-font-weight, $fw-regular) !default;
 =             Heading font sizes              =
 =============================================*/
 
-$h1-font-size: var(--bmds-h1-font-size, $h-1) !default;
-$h2-font-size: var(--bmds-h2-font-size, $h-2) !default;
-$h3-font-size: var(--bmds-h3-font-size, $h-3) !default;
-$h4-font-size: var(--bmds-h4-font-size, $h-4) !default;
-$h5-font-size: var(--bmds-h5-font-size, $h-5) !default;
-$h6-font-size: var(--bmds-h6-font-size, $h-6) !default;
+$h-1-font-size: var(--bmds-h1-font-size, $h-1) !default;
+$h-2-font-size: var(--bmds-h2-font-size, $h-2) !default;
+$h-3-font-size: var(--bmds-h3-font-size, $h-3) !default;
+$h-4-font-size: var(--bmds-h4-font-size, $h-4) !default;
+$h-5-font-size: var(--bmds-h5-font-size, $h-5) !default;
+$h-6-font-size: var(--bmds-h6-font-size, $h-6) !default;
 
 /*=============================================
 =             Heading font weights            =
 =============================================*/
 
-$h1-font-weight: var(--bmds-h1-font-weight, $fw-black) !default;
-$h2-font-weight: var(--bmds-h2-font-weight, $fw-semibold) !default;
-$h3-font-weight: var(--bmds-h3-font-weight, $fw-bold) !default;
-$h4-font-weight: var(--bmds-h4-font-weight, $fw-medium) !default;
-$h5-font-weight: var(--bmds-h5-font-weight, $fw-regular) !default;
-$h6-font-weight: var(--bmds-h6-font-weight, $fw-light) !default;
+$h-1-font-weight: var(--bmds-h1-font-weight, $fw-black) !default;
+$h-2-font-weight: var(--bmds-h2-font-weight, $fw-semibold) !default;
+$h-3-font-weight: var(--bmds-h3-font-weight, $fw-bold) !default;
+$h-4-font-weight: var(--bmds-h4-font-weight, $fw-medium) !default;
+$h-5-font-weight: var(--bmds-h5-font-weight, $fw-regular) !default;
+$h-6-font-weight: var(--bmds-h6-font-weight, $fw-light) !default;
