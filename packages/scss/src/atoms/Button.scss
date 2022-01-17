@@ -1,8 +1,9 @@
 @import "foundation/all";
 
 .bmds-button {
-  &__container {
-    color: $btn-primary-color;
-    display: flex;
-  }
+  display: flex;
+  color: $btn-primary-color;
+  background-color: $btn-primary-bg;
+  border: 0;
+  padding: map-get($spacing, "xxxs");
 }
