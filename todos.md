@@ -5,6 +5,12 @@
 - Detect which are the base entities that will be needed for the DS
 - Decompose base entities into Atoms, Molecules and Organisms
 
+## Atoms
+
+### Image
+
+- Current implementation of image is not good, maybe implement a grid system use it to size the image. Or implement sizes to foundation in order to work with container/bigger sizes
+
 ## SCSS
 
 ### variables
