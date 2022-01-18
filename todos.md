@@ -1,6 +1,11 @@
 # Backlog for future implementations and improvements
 
-## SCSS/foudations
+## Initial
+
+- Detect which are the base entities that will be needed for the DS
+- Decompose base entities into Atoms, Molecules and Organisms
+
+## SCSS
 
 ### variables
 
@@ -27,3 +32,4 @@
 - improve documentation of current mixins
 - add spacing mixins handling specific parts of padding, margin, border, outline...
 - Review the need for more mixins dealing with other entities
+
