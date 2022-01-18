@@ -1,5 +1,10 @@
+import Spacing from "./foundation/Spacing"
+
 import Button from "./atoms/Button";
+import Color from "./atoms/Color"
 
 export {
-  Button
+  Spacing,
+  Button,
+  Color
 }
