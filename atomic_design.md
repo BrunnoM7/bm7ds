@@ -10,7 +10,7 @@ A set of rules that the company should agree on in order to have a fine tune to 
 - Components...
 - What is important in the design in order to its be consistent
 
-** All experiences should be consistent **
+**All experiences should be consistent**
 
 ## Atomic Design
 
