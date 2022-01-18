@@ -14,6 +14,6 @@ BMDS is a Design System being developed by Brunno Marchetti.
 
 ## Developing
 
-** Important **
+**Important**
 
 - Every new component created must have its path registered in `rollup.config.js` in the `input` field.
