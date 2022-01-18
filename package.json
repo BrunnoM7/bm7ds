@@ -32,7 +32,8 @@
   "scripts": {
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "yarn lint --fix",
-    "build": "yarn lerna run build"
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev"
   },
   "husky": {
     "hooks": {
