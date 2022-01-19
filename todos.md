@@ -1,7 +1,7 @@
 # Backlog for future implementations and improvements
 
 ## Initial
-
+- Document DS definitions
 - Detect which are the base entities that will be needed for the DS
 - Decompose base entities into Atoms, Molecules and Organisms
 
