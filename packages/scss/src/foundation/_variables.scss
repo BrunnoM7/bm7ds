@@ -93,6 +93,14 @@ $fs-base: 1rem; // 16px
 $fs-lg: 1.125rem; // 18px
 $fs-xl: 1.5rem; // 24px
 
+$fs: (
+  xs: $fs-xs,
+  sm: $fs-sm,
+  base: $fs-base,
+  lg: $fs-lg,
+  xl: $fs-xl,
+);
+
 /* Heading Font Sizes */
 
 $h-1: 1.375rem; // 22px

@@ -1,0 +1,11 @@
+@import "foundation/all";
+
+.bmds-text {
+  margin: 0;
+}
+
+@each $size, $value in $fs {
+  .bmds-text-#{$size} {
+    font-size: $value;
+  }
+}
