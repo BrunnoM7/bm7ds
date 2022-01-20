@@ -15,11 +15,8 @@ const Image: React.FC<ImageProps> = ({ src, alt, width=Spacing.xxxl, height }) =
     ${height ? `bmds-height-${height}` : ''}
   `;
 
-  return (
-    <div>
-      <img className={className} src={src} alt={alt} />
-    </div>
-  )
+  return <img className={className} src={src} alt={alt} />;
+
 }
 
 export default Image
