@@ -12,4 +12,4 @@ const spaces = {
   xxxxl: 'xxxxl'  // 128px
 } 
 
-export default Object.freeze(spaces);
+export default Object.freeze(spaces); 

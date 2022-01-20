@@ -1,4 +1,4 @@
-const fontSizes = {
+const fontSize = {
   xs: 'xs',
   sm: 'sm',
   md: 'md',
@@ -6,4 +6,4 @@ const fontSizes = {
   xl: 'xl'
 }
 
-export default Object.freeze(fontSizes);
+export default Object.freeze(fontSize);
