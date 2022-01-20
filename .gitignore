@@ -2,8 +2,7 @@ node_modules
 
 yarn-error.log
 
-packages/scss/lib/*
-packages/react/lib/*
+packages/**/lib/*
 
 playgrounds/react/.cache
 playgrounds/react/dist
