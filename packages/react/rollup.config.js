@@ -6,7 +6,8 @@ export default {
     'src/atoms/Button/index.ts',
     'src/atoms/Color/index.ts',
     'src/atoms/Image/index.ts',
-    'src/atoms/Text/index.ts'
+    'src/atoms/Text/index.ts',
+    'src/atoms/Margin/index.ts',
   ],
   output: {
     dir: 'lib',
@@ -15,5 +16,5 @@ export default {
   },
   plugins: [Ts()],
   preserveModules: true,
-  external: ['react']
+  external: ['react', '@bmds/foundation']
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Spacing } from'@bmds/foundation'
+import { Spacing } from '@bmds/foundation'
 
 interface ImageProps {
   src: string,
