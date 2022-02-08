@@ -1,12 +1,27 @@
 import React from "react";
 import { Spacing } from "@bmds/foundation";
 
-import { Button, Color, Image, Text, Margin } from '@bmds/react'
+import { Button, Color, Image, Text, Margin, Select } from '@bmds/react'
 import '@bmds/scss/lib/Button.css'
 import '@bmds/scss/lib/Utilities.css'
 import '@bmds/scss/lib/Text.css'
 import '@bmds/scss/lib/Margin.css'
 
+
+const options =[
+  {
+    label: 'Strict Black',
+    value: "strict-black"
+  },
+  {
+    label: 'Black',
+    value: "black"
+  },
+  {
+    label: 'Sirius Black',
+    value: "sirius-black"
+  },
+]
 
 const App = () => {
 
@@ -21,6 +36,7 @@ const App = () => {
       <Margin space='xl' left>
         <Text size='xl'>Olá</Text>
       </Margin>
+      <Select options={options} />
     </div>
   )
 }

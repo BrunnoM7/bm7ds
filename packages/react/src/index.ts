@@ -4,11 +4,15 @@ import Image from "./atoms/Image"
 import Text from "./atoms/Text"
 import Margin from "./atoms/Margin"
 
+import Select from "./molecules/Select"
+
+
 
 export {
   Button,
   Color,
   Image,
   Text,
-  Margin
+  Margin,
+  Select
 }
