@@ -42,5 +42,8 @@
   },
   "lint-staged": {
     "*.scss": "yarn lint:fix"
+  },
+  "resolutions": {
+    "**/glob-parent": "^5.1.2"
   }
 }
