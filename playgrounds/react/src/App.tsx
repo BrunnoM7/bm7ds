@@ -42,6 +42,9 @@ const App = () => {
         {/* TODO: Write better documentation of getOptionRecommendedProps usage */}
         <Select options={options} renderOption={({option, getOptionRecommendedProps}) => <p {...getOptionRecommendedProps({className: 'custom'})} >{option.label}</p>} />
       </div>
+      <div style={{width: '500px', padding: '50px'}}>
+        <Select options={options} />
+      </div>
       
     </div>
   )
