@@ -59,6 +59,18 @@ $fab-primary-shadow: var(--bmds-fab-primary-shadow, $dark-light) !default;
 =                    Forms                    =
 =============================================*/
 
+$form-border-color: var(--bmds-form-border-color, $white-dark) !default;
+$form-bg-color: var(--bmds-form-bg-color, $white) !default;
+$form-bg-color-hover: var(--bmds-form-bg-color, $white-dark) !default;
+$form-bg-option-selected: var(--bmds-form-bg-option-selecte, $green) !default;
+$form-bg-option-selected-hover: var(
+  --bmds-form-bg-option-selecte-hover,
+  $green-light
+) !default;
+$form-color-option-selected: var(
+  --bmds-form-color-option-selecte,
+  $white
+) !default;
 $form-color: var(--bmds-form-color, $dark) !default;
 $form-bg: var(--bmds-form-bg, $white) !default;
 $form-error-color: var(--bmds-form-error-color, $red) !default;

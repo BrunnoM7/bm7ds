@@ -6,6 +6,8 @@ import '@bmds/scss/lib/Button.css'
 import '@bmds/scss/lib/Utilities.css'
 import '@bmds/scss/lib/Text.css'
 import '@bmds/scss/lib/Margin.css'
+import '@bmds/scss/lib/Select.css'
+
 
 
 const options =[
@@ -36,7 +38,11 @@ const App = () => {
       <Margin space='xl' left>
         <Text size='xl'>Olá</Text>
       </Margin>
-      <Select options={options} />
+      <div style={{width: '500px', padding: '50px'}}>
+        {/* TODO: Write better documentation of getOptionRecommendedProps usage */}
+        <Select options={options} renderOption={({option, getOptionRecommendedProps}) => <p {...getOptionRecommendedProps({className: 'custom'})} >{option.label}</p>} />
+      </div>
+      
     </div>
   )
 }

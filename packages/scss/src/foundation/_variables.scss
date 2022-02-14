@@ -175,3 +175,8 @@ $spacing: (
 ) !default;
 
 /*=====  End of SPACING  ======*/
+
+$shadows: (
+  base: 0 4px 11px rgba(157, 157, 157, 0.21),
+);
+// TODO: Create the proxy variable so it is customizable via css
