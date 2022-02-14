@@ -44,6 +44,8 @@
     "*.scss": "yarn lint:fix"
   },
   "resolutions": {
-    "**/glob-parent": "^5.1.2"
+    "**/glob-parent": "^5.1.2",
+    "**/postcss": "^8.2.13",
+    "**/node-forge": "^1.0.0"
   }
 }
