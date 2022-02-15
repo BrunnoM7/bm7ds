@@ -11,6 +11,14 @@
 
 - Current implementation of image is not good, maybe implement a grid system use it to size the image. Or implement sizes to foundation in order to work with container/bigger sizes
 
+## Molecules
+
+### Select
+
+- Improve component documentation giving details of each methods
+- Fix keyboard navigation and tab navigation get stucked in closed instance of element.
+
+
 ## SCSS
 
 ### variables
