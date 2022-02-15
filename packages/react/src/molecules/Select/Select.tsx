@@ -133,6 +133,7 @@ const Select: React.FunctionComponent<SelectProps> = ({ options = [], label = 'S
       onClick={() => onLabelClick()}
       onKeyDown={onButtonKeyDown}
       tabIndex={0}
+      data-testid="BmdsSelectButton"
     >
       <Text>{selectedOption === null ? label : selectedOption.label }</Text>
       
