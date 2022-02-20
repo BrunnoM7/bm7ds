@@ -5,7 +5,8 @@ import '@bmds/scss/lib/global.css'
 import '@bmds/scss/lib/Select.css'
 
 export default {
-  title: 'Molecules/Select'
+  title: 'Molecules/Select',
+  component: Select
 }
 
 const options =[

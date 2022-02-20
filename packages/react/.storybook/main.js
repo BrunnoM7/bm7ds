@@ -8,7 +8,8 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     "@storybook/addon-storysource",
-    "@storybook/preset-scss"
+    "@storybook/preset-scss",
+    "@storybook/addon-knobs"
   ],
   "framework": "@storybook/react"
 }
