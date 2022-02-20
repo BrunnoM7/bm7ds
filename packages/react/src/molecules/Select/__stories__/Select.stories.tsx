@@ -5,10 +5,8 @@ import '@bmds/scss/lib/global.css'
 import '@bmds/scss/lib/Select.css'
 
 export default {
-  title: 'Select'
+  title: 'Molecules/Select'
 }
-
-export const Common = () => <Select options={options} />
 
 const options =[
   {
@@ -24,3 +22,9 @@ const options =[
     value: "sirius-black"
   },
 ]
+
+export const Common = () => <Select options={options} />
+
+export const RenderOption = () => <Select renderOption={({ getOptionRecommendedProps, option, isSelected }) => <span {...getOptionRecommendedProps()}>{option.label} {isSelected? 'SELECTED !' : ''}</span>} options={options} />
+
+export const CustomLabel = () => <Select label="Select a color..." options={options} />
