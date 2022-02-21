@@ -1,6 +1,6 @@
 {
   "name": "@bmds/react",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "license": "MIT",
   "devDependencies": {
@@ -44,7 +44,6 @@
     "build-storybook": "build-storybook",
     "chromatic": "npx chromatic --project-token=2c7e9b7ebb30"
   },
-  "dependencies": {},
   "publishConfig": {
     "access": "public"
   }
