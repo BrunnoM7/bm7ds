@@ -16,6 +16,8 @@
     ]
   },
   "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.4",
     "lerna": "^4.0.0",
     "lint-staged": "^12.1.7",
@@ -35,7 +37,8 @@
     "build": "yarn lerna run build",
     "dev": "yarn lerna run dev",
     "test": "yarn lerna run test",
-    "pub": "yarn test && yarn build && yarn lerna publish"
+    "pub": "yarn test && yarn build && yarn lerna publish",
+    "commit": "yarn git-cz"
   },
   "husky": {
     "hooks": {
@@ -51,6 +54,10 @@
     "**/node-forge": "^1.0.0",
     "**/ansi-regex": "^5.0.1",
     "**/nth-check": "^2.0.1"
-
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
