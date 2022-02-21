@@ -3,6 +3,7 @@
   "version": "0.2.1",
   "main": "index.js",
   "license": "MIT",
+  "files": ["lib", "src"],
   "dependencies": {
     "normalize-scss": "^7.0.1"
   },
