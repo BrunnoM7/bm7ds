@@ -9,7 +9,8 @@ module.exports = {
     "@storybook/addon-interactions",
     "@storybook/addon-storysource",
     "@storybook/preset-scss",
-    "@storybook/addon-knobs"
+    "@storybook/addon-knobs",
+    "@storybook/addon-a11y"
   ],
   "framework": "@storybook/react"
 }

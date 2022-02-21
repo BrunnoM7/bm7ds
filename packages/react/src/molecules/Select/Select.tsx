@@ -146,12 +146,13 @@ const Select: React.FunctionComponent<SelectProps> = ({ options = [], label = 'S
       </svg>
     </button>
 
-    {isOpen ? 
+    {
       <ul 
         role='menu' 
         id='bmds-select-list' 
         style={{ top: overlayTop }} 
-        className='bmds-select__overlay'
+        className={`bmds-select__overlay ${ isOpen ? 'bmds-select__overlay--open' : '' }`}
+
       >
         {options.map((option, optionIndex) => {
           const isSelected = selectedIndex === optionIndex;
@@ -207,7 +208,7 @@ const Select: React.FunctionComponent<SelectProps> = ({ options = [], label = 'S
             </li>)
         })}
       </ul>
-    : null}
+    }
   </div>;
 };
 

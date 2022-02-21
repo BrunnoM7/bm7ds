@@ -7,44 +7,49 @@
   position: relative;
 
   &__label {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 
     @include padding("xs");
-    border: 1px solid $form-border-color;
+    align-items: center;
     background-color: $white;
-
-    font-family: $body-font-family;
+    border: 1px solid $form-border-color;
 
     cursor: pointer;
+    display: flex;
+
+    font-family: $body-font-family;
+    justify-content: space-between;
   }
 
   &__overlay {
     @include padding("none");
     @include margin("none");
+    background-color: $form-bg-color;
 
     border: 1px solid $form-border-color;
-    background-color: $form-bg-color;
-    z-index: 99;
+
+    box-shadow: map-get($shadows, "base");
+    display: none;
 
     list-style-type: none;
 
-    box-shadow: map-get($shadows, "base");
-
     position: absolute;
     width: 100%;
+    z-index: 99;
+  }
+
+  &__overlay--open {
+    display: block;
   }
 
   &__option {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    cursor: pointer;
     @include padding("xs");
+    align-items: center;
 
     box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
 
   &__option--highlighted {
@@ -61,9 +66,9 @@
   }
 
   &__caret {
+    height: $fs-base;
     transition: all 250ms ease;
     width: $fs-base;
-    height: $fs-base;
   }
 
   &__caret--open {
