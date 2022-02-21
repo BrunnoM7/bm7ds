@@ -34,7 +34,8 @@
     "lint:fix": "yarn lint --fix",
     "build": "yarn lerna run build",
     "dev": "yarn lerna run dev",
-    "test": "yarn lerna run test"
+    "test": "yarn lerna run test",
+    "pub": "yarn test && yarn build && yarn lerna publish"
   },
   "husky": {
     "hooks": {
