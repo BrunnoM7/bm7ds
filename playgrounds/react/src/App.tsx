@@ -1,12 +1,12 @@
 import React from "react";
-import { Spacing } from "@bmds/foundation";
+import { Spacing } from "@bm7ds/foundation";
 
-import { Button, Color, Image, Text, Margin, Select } from '@bmds/react'
-import '@bmds/scss/lib/Button.css'
-import '@bmds/scss/lib/Utilities.css'
-import '@bmds/scss/lib/Text.css'
-import '@bmds/scss/lib/Margin.css'
-import '@bmds/scss/lib/Select.css'
+import { Button, Color, Image, Text, Margin, Select } from '@bm7ds/react'
+import '@bm7ds/scss/lib/Button.css'
+import '@bm7ds/scss/lib/Utilities.css'
+import '@bm7ds/scss/lib/Text.css'
+import '@bm7ds/scss/lib/Margin.css'
+import '@bm7ds/scss/lib/Select.css'
 
 
 

@@ -17,5 +17,5 @@ export default {
   },
   plugins: [Ts()],
   preserveModules: true,
-  external: ['react', '@bmds/foundation']
+  external: ['react', '@bm7ds/foundation']
 }

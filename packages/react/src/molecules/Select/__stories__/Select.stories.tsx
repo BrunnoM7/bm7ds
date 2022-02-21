@@ -1,8 +1,8 @@
 import React from "react";
 import Select from "../Select";
 
-import '@bmds/scss/lib/global.css'
-import '@bmds/scss/lib/Select.css'
+import '@bm7ds/scss/lib/global.css'
+import '@bm7ds/scss/lib/Select.css'
 
 export default {
   title: 'Molecules/Select',
