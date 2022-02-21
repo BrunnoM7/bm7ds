@@ -44,5 +44,8 @@
     "build-storybook": "build-storybook",
     "chromatic": "npx chromatic --project-token=2c7e9b7ebb30"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
 }
