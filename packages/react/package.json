@@ -46,7 +46,7 @@
     "storybook": "start-storybook -p 6006",
     "storybook:build": "yarn build-storybook",
     "build-storybook": "build-storybook",
-    "test:chromatic": "npx chromatic --project-token=\"$CHROMATIC_PROJECT_TOKEN\""
+    "test:chromatic": "npx chromatic --project-token=CHROMATIC_PROJECT_TOKEN"
   },
   "publishConfig": {
     "access": "public"
