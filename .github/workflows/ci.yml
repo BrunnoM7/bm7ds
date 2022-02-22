@@ -32,9 +32,11 @@ jobs:
         # 👇 Adds Chromatic as a step in the workflow
       - name: Publish to Chromatic
         working-directory: "./packages/react"
+        env:
+          CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
         run: yarn storybook:build
         # Chromatic GitHub Action options
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          # 👇 Chromatic projectToken, refer to the manage page to obtain it.
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+        # with:
+        #   token: ${{ secrets.GITHUB_TOKEN }}
+        #   # 👇 Chromatic projectToken, refer to the manage page to obtain it.
+        #   projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
