@@ -31,8 +31,8 @@ jobs:
         run: yarn
         # 👇 Adds Chromatic as a step in the workflow
       - name: Publish to Chromatic
+        working-directory: "./packages/react"
         uses: chromaui/action@v1
-        working-directory: "packages/react"
         # Chromatic GitHub Action options
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
