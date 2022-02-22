@@ -8,6 +8,7 @@
   ],
   "devDependencies": {
     "@bm7ds/foundation": "^0.2.2",
+    "@bm7ds/scss": "^0.2.2",
     "@babel/core": "^7.17.5",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
