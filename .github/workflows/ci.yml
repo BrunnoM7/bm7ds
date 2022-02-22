@@ -20,7 +20,7 @@ jobs:
         run: yarn build
       - name: Automated tests
         run: yarn test
-        
+
   chromatic-deployment:
     # Operating System
     runs-on: ubuntu-latest
@@ -32,6 +32,7 @@ jobs:
         # 👇 Adds Chromatic as a step in the workflow
       - name: Publish to Chromatic
         uses: chromaui/action@v1
+        workingDir: "packages/react"
         # Chromatic GitHub Action options
         with:
           token: ${{ secrets.GITHUB_TOKEN }}

@@ -3,6 +3,9 @@ node_modules
 yarn-error.log
 
 packages/**/lib/*
+packages/**/storybook-static/*
+
 
 playgrounds/react/.cache
 playgrounds/react/dist
+
