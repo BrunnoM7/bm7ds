@@ -7,7 +7,6 @@
   position: relative;
 
   &__label {
-
     @include padding("xs");
     align-items: center;
     background-color: $white;
