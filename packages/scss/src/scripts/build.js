@@ -37,6 +37,12 @@ const compile = (path, fileName) => {
   );
 }
 
+try {
+  Fs.mkdirSync(Path.resolve('lib'));
+} catch (error) {
+  console.log('lib dir is already created, should be working as intended')
+}
+
 compile('src/global.scss', 'lib/global.css');
 
 getComponents().forEach(component => {
