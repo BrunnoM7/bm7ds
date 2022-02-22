@@ -39,6 +39,7 @@
     "build": "yarn lerna run build",
     "dev": "yarn lerna run dev",
     "test": "yarn lerna run test",
+    "test:chromatic": "yarn lerna run test:chromatic",
     "pub": "yarn test && yarn build && yarn lerna publish",
     "commit": "yarn git-cz"
   },
