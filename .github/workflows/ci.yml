@@ -21,22 +21,4 @@ jobs:
       - name: Automated tests
         run: yarn test
 
-  chromatic-deployment:
-    steps:
-      # 👇 Version 2 of the action
-      - name: Checkout repository
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0 # 👈 Required to retrieve git history
-      - name: Install dependencies
-        working-directory: "./packages/react"
-        run: yarn
-        # 👇 Adds Chromatic as a step in the workflow
-      - name: Publish to Chromatic
-        working-directory: "./packages/react"
-        uses: chromaui/action@v1
-        # Options required to the GitHub Chromatic Action
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          # 👇 Chromatic projectToken, refer to the manage page to obtain it.
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+# TODO: integrate Chromatic to CI
